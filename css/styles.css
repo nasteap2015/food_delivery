@@ -1,0 +1,152 @@
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+    text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+address {
+    font-style: normal;
+}
+
+/*Глобальні стилі для кнопок*/
+button {
+    font-family: inherit;
+    color: currentColor;
+}
+
+/*Глобальні стилі для полів вводу*/
+input {
+    font-family: inherit;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #2C2C2C;
+    margin: 0 auto;
+    background-color: #FEFEFE;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+.navigation-button-flex{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navigation-flex{
+    display: flex;
+    gap: 28px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.logo{
+    padding: 0;
+    margin-bottom: 10px;
+}
+header.container{
+    box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+
+.current{
+    color: #BBF330;
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.navigation-link:hover,
+.navigation-link:active,
+.navigation-link:focus{
+    color: #2C2C2C;
+}
+
+.current:hover,
+.current:active,
+.current:focus{
+    color: #BBF330;
+}
+
+.order-button{
+    border-radius: 30px;
+    background: #BBF330;
+    font-size: 13px;
+    border:none;
+    width: 98px;
+    height: 32px;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 28px;
+    max-width: 502px;
+}
+
+.hero-text{
+    margin-bottom: 46px;
+    max-width: 511px;
+}
+
+.image-container{
+    border-radius: 580px;
+    border: 26px solid #FFE550;
+    background: #FEFEFE;
+    width: 528px;
+    height: 528px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 145px;
+}
+
+.container.first-section{
+    display: flex;
+    flex-direction: row;
+    gap: 143px;
+    padding-top: 14px;
+}

@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="./index.html">
-            <img src="./images/logo.png" alt="logo"
-            width="66"
-            height="52">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <button type="button">Order now</button>
+    <header class="container">
+        <div class="header-flex">
+            <a class="logo" href="./index.html">
+                <img src="./images/logo.png" alt="logo" width="66" height="52">
+            </a>
+            <div class="navigation-button-flex">
+                <nav>
+                    <ul class="navigation-flex">
+                        <li><a class="current"href="./index.html">Home</a></li>
+                        <li><a class="navigation-link" href="">About</a></li>
+                        <li><a class="navigation-link" href="">Service</a></li>
+                        <li><a class="navigation-link" href="">Menu</a></li>
+                        <l><ai class="navigation-link" href="">Contact</ai></l>
+                    </ul>
+                </nav>
+                <button class="order-button" type="button">Order now</button>
+            </div>
+        </div>
     </header>
     <main>
-        <section>
-            <img src="./images/salad.png" alt="Salad"
-            width="528"
-            height="528">
-            <h1>Enjoy Your Favorite Food From Anywhere</h1>
-            <p>
-                With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are.
-            Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.
-            </p>
-            <button type="button">Order now</button>
+        <section class="container first-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+                <p class="hero-text">
+                    With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you
+                    are.
+                    Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.
+                </p>
+                <button class="order-button" type="button">Order now</button>
+            </div>
+            <div class="image-container">
+                <img src="./images/salad.png" alt="Salad" width="528" height="528">
+            </div>
         </section>
         <section>
             <img src="./images/apple.png" alt="Apple"
