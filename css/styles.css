@@ -167,6 +167,7 @@ header.container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 124px;
 }
 
 .image-second-background{
@@ -201,10 +202,14 @@ header.container{
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
+    max-width: 526px;
+    margin-bottom: 20px;
+    margin-top: 29px;
 }
 
 .second-section-text{
-
+    margin-bottom: 40px;
+    max-width: 500px;
 }
 
 .second-section-icon-container{
@@ -215,16 +220,20 @@ header.container{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    margin-bottom: 8px;
 }
 
 .second-section-list-title{
     font-size: 18px;
     line-height: 1.4;
     font-weight: bold;
+    margin-bottom: 16px;
 }
 
 .second-section-list-text{
     font-size: 14px;
+    max-width: 253px;
+
 }
 
 .second-section-button{
@@ -236,6 +245,163 @@ header.container{
     font-size: 13px;
 }
 
-.secont-section-content{
+.second-section-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+    margin-bottom: 32px;
+}
 
+.second-section-list-item{
+    max-width: calc((100% - 67px) / 2);
+}
+
+.third-section{
+    padding-top: 120px;
+}
+
+.third-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.third-section-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.image-background{
+    border-radius: 50%;
+    border: 16px solid #FFE550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 362px;
+    width: 362px;
+}
+
+.third-section-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 101px;
+}
+
+.third-section-list-item{
+    max-width: calc((100% - 64px) / 3);
+}
+
+.fourth-section{
+    background-color: #FFE550;
+    padding-top: 140px;
+
+}
+
+.fourth-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20.4px;
+}
+
+.fourth-section-text{
+    margin-bottom: 32.65px;
+}
+
+.rewiew-text{
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 473px;
+    margin-bottom: 40.81px;
+}
+
+.stars-icon{
+    margin-bottom: 28.56px;
+}
+
+.rewiew-image{
+    border-radius: 50%;
+    border: 2px solid #FFE550;
+}
+
+.rewiew-name{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.dude{
+    font-size: 14px;
+}
+
+.fourth-section-list-item{
+    background-color: #FEFEFE;
+    padding: 14.28px 14px;
+    border-radius: 0% 26px 26px 16px;
+    margin-bottom: 126px;
+}
+
+.fourth-section-list{
+    display: flex;
+    gap: 139px;
+    
+}
+
+.rewiewer-card{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.line{
+    height: 52px;
+    width: 1px;
+    background-color: #7EB101;
+}
+
+.fifth-section{
+    padding-top: 222px;
+    padding-bottom: 201px;
+}
+
+.fifth-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.fifth-section-text{
+    max-width: 532px;
+    margin-bottom: 24px;
+}
+
+.email-form{
+    border-radius: 30px;
+    border: 0.854px solid #FFE550;
+    padding: 12px 57px 12px 12px;
+    color: #505050;
+    font-size: 12px;
+    width: 395px;
+}
+
+.subscribe-button{
+    width: 103px;
+    height: 42px;
+    background-color: #BBF330;
+    border: none;
+    border-radius: 30px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.subscribe-form{
+    display: flex;
+    gap: 32px;
+}
+
+.fifth-section{
+    display: flex;
+    align-items: center;
 }
