@@ -155,6 +155,8 @@ header.container{
 .container.second-section{
     background-color: #FFE550;
     padding-top: 167px;
+    display: flex;
+    gap: 90px;
 }
 
 .image-first-background{
@@ -232,4 +234,8 @@ header.container{
     border-radius: 30px;
     border: 2px solid #7EB101;
     font-size: 13px;
+}
+
+.secont-section-content{
+
 }
